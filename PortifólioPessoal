@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Maria Eduarda Costa</title>
+</head>
+<body style="margin:0; font-family:Arial, sans-serif;">
+
+  <!-- Header fixo -->
+  <header style="position:fixed; top:0; left:0; right:0; background-color:#333; color:rgb(251, 245, 245); padding:10px; z-index:1000;">
+    <nav style="display:flex; justify-content:space-between; align-items:center;">
+      <strong style="font-size:20px;">Maria Eduarda Costa</strong>
+      <div>
+        <a href="#intro" style="color:white; margin: 0 10px; text-decoration:none;">Introdução</a>
+        <a href="#habilidades" style="color:white; margin: 0 10px; text-decoration:none;">Habilidades</a>
+        <a href="#projetos" style="color:white; margin: 0 10px; text-decoration:none;">Projetos</a>
+        <a href="#contato" style="color:white; margin: 0 10px; text-decoration:none;">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main style="padding-top:70px;"> <!-- Espaço para o header fixo -->
+
+    <!-- Seção Introdução -->
+    <section id="intro" style="background-color:#f9f9f9; padding:30px; margin-bottom:30px;">
+      <div style="background-image:url('images.png'); background-size:cover; padding:40px;">
+        <h1 style="font-size:36px; text-align:center; color:rgb(25, 25, 25);">Maria Eduarda Costa</h1>
+        <p style="color:rgb(18, 18, 18); text-align:center;">Sou uma <span style="color:rgb(244, 24, 170);">desenvolvedora web</span> apaixonada por <span style="color:rgb(255, 0, 204);">design</span> e tecnologia.</p>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" style="background-color:#e3f2fd; padding:30px; margin-bottom:30px;">
+      <h2 style="font-size:28px; text-align:left;">Habilidades</h2>
+      <ul>
+        <li><span style="color:blue;">HTML5</span> e <span style="color:green;">CSS3</span></li>
+        <li>JavaScript</li>
+        <li>Front end</li>
+        <li>Git e GitHub</li>
+        <li>Web design</li>
+      </ul>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" style="background-color:#cbe2facc; padding:30px; margin-bottom:30px;">
+      <h2 style="font-size:28px; text-align:center;">Projetos</h2>
+      
+      <div style="border: 2px solid #2600ff; padding:20px; margin:10px;">
+        <h3 style="font-size:22px;">Portfólio Pessoal</h3>
+        <p>Site desenvolvido para apresentar minhas habilidades e projetos.</p>
+        <a href="#" target="https://github.com/Gukisz/timeless/commit/cb2b622e670b3598d9875e841f3c253badf8b012">Ver Projeto</a>
+      </div>
+
+      <div style="border: 2px dashed #4a5cc3; padding:20px; margin:10px;">
+        <h3 style="font-size:22px;">Timeless</h3>
+        <p>Aplicativo simples para gerenciar o tempo de uma pessoa com a vida corrida.</p>
+        <a href="#" target="_blank">Ver Projeto</a>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" style="background-color:#fce4ec; padding:30px; margin-bottom:30px;">
+      <h2 style="font-size:28px; text-align:left;">Contato</h2>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+        <label for="origem">Como nos conheceu?</label><br>
+        <select id="origem" name="origem">
+          <option value="google">Google</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="amigo">Indicação de amigo</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer style="background-color:#333; color:white; text-align:center; padding:15px;">
+    <p>&copy; 2025 Maria Eduarda Costa. Todos os direitos reservados.</p>
+    <p>Contato: maria@email.com</p>
+  </footer>
+
+</body>
+</html>
+
