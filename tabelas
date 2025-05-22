@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela Simples</title>
+</head>
+<body>
+
+<h2>Melhores Filmes</h2>
+
+<table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Ano de Lançamento</th>
+        <th>Gênero</th>
+        <th>Nota</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>As Crônicas de Nárnia</tr>
+        <td>2005</td>
+        <td>Ficcao Científica/ação</td>
+        <td>9.2</td>
+      </tr>
+      <tr>
+        <td>Interestelar</td>
+        <td>2014</td>
+        <td>Ficção Científica</td>
+        <td>8.6</td>
+      </tr>
+      <tr>
+        <td>Para todos os garotos que ja amei</td>
+        <td>2018</td>
+        <td>Romance/Drama</td>
+        <td>9.2</td>
+      </tr>
+      <tr>
+        <td>007: Sem tempo pra morrer</td>
+        <td>2021</td>
+        <td>Ação/Aventura</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>Horários</h2>  
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Dia</th>
+        <th>Matéria</th>
+        <th>Horário</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Segunda-feira</td>
+        <td>Matemática</td>
+        <td>08:00 - 09:40</td>
+      </tr>
+      <tr>
+        <td>Terça-feira</td>
+        <td>História</td>
+        <td>10:00 - 11:40</td>
+      </tr>
+      <tr>
+        <td>Quarta-feira</td>
+        <td>Português</td>
+        <td>08:00 - 09:40</td>
+      </tr>
+      <tr>
+        <td>Quinta-feira</td>
+        <td>Inglês</td>
+        <td>10:00 - 11:40</td>
+      </tr>
+      <tr>
+        <td>Sexta-feira</td>
+        <td>Ciências</td>
+        <td>08:00 - 09:40</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total de horas semanais: 10 horas</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>Lista de Compras</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantidade</th>
+        <th>Preço Unitário (R$)</th>
+        <th>Preço Total (R$)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Arroz</td>
+        <td>2</td>
+        <td>5.50</td>
+        <td>11.00</td>
+      </tr>
+      <tr>
+        <td>Feijão</td>
+        <td>1</td>
+        <td>7.20</td>
+        <td>7.20</td>
+      </tr>
+      <tr>
+        <td>Leite</td>
+        <td>3</td>
+        <td>4.00</td>
+        <td>12.00</td>
+      </tr>
+      <tr>
+        <td>Pão</td>
+        <td>10</td>
+        <td>0.60</td>
+        <td>6.00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3"><strong>Total da Compra</strong></td>
+        <td><strong>36.20</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Tabela de classificação</h2>  
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Jogos</th>
+            <th>Vitórias</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Grêmio</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>Br Pelotas</td>
+            <td>10</td>
+            <td>6</td>
+            <td>4</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Botafogo</td>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>internacional</td>
+            <td>10</td>
+            <td>2</td>
+            <td>8</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</body>
+</html>
